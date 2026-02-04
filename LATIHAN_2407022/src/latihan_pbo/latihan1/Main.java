@@ -10,7 +10,7 @@ class Cafe{
     System.out.println(nama);
     System.out.println(alamat);
     }
-
+ 
     // method
     void buka(){
     System.out.println("Cafe" + nama + "Sudah buka");
@@ -23,7 +23,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Cafe cafe1 = new Cafe();
-        Cafe cafe4 = new Cafe( "Kopkar",  "Indramayu");
+        Cafe cafe4 = new Cafe( "TOMORO",  "Indramayu");
         cafe4.buka();
         // cafe1.nama = "Kopi Kenangan";
         // cafe1.alamat = "Indramayu";
