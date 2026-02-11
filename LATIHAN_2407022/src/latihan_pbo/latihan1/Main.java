@@ -1,10 +1,12 @@
 package latihan_pbo.latihan1;
 
+// Import java.util.Scanner
+
 class Cafe{
     String nama;
     String alamat;
 
-    Cafe(String nama, String alamat){
+    Cafe (String nama, String alamat){
     this.nama = nama;
     this.alamat = alamat;
     System.out.println(nama);
@@ -13,8 +15,25 @@ class Cafe{
  
     // method
     void buka(){
-    System.out.println("Cafe" + nama + "Sudah buka");
-}
+    System.out.println("Cafe " + nama + " Sudah buka ");
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+        // this.alamat = alamat;
+    }
+
+    public String getAlamat() {
+        return alamat;
+    }
+
+    public void setAlamat(String alamat) {
+        this.alamat = alamat;
+    }
 }
 
 // constructor
@@ -22,9 +41,18 @@ class Cafe{
 public class Main {
     public static void main(String[] args) {
 
+        // Scanner input = new Scanner(System.in);
+        // Cafe cafe = new Cafe();
+
+        // System.out.println("Masukkan nama cafe: ");
+        // cafe.nama = input.nextline();
+
+        // System.out.println("Nama yang diinput adalah: " + cafe.nama);
+        // cafe.buka();
+
         // Cafe cafe1 = new Cafe();
-        Cafe cafe4 = new Cafe( "TOMORO",  "Indramayu");
-        cafe4.buka();
+        // Cafe cafe4 = new Cafe( "TOMORO",  "Indramayu");
+        // cafe4.buka();
         // cafe1.nama = "Kopi Kenangan";
         // cafe1.alamat = "Indramayu";
 
@@ -44,6 +72,10 @@ public class Main {
 
         // System.out.println("Nama Cafenya adalah : " + cafe3.nama);
         // System.out.println("Alamatnya ada di : " + cafe3.alamat);
+
+        Cafe cafe5 = new Cafe("Arum Dalu", "Indramayu");
+        cafe5.setNama("Kopi Kenangan");
+        cafe5.buka();
         
     }
 }
