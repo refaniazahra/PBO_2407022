@@ -1,4 +1,4 @@
-package latihan_pbo.latihan4;
+package latihan_pbo.latihan3;
 
 public class BangunRuang{
     //encapsulasi
