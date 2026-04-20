@@ -1,4 +1,4 @@
-package latihan_pbo.latihan_inheritance;
+package latihan_pbo.latihan4_inheritance;
 
 public class Main {
     public static void main(String[] args) {
